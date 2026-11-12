@@ -4,14 +4,10 @@
     {
         static void Main(string[] args)
         {
-            SkrivUt(3);
-            SkrivUt(14);
-            SkrivUt(24);
-            Console.WriteLine();
             
-            Console.WriteLine(PlusEtt(3));
-            Console.WriteLine(PlusEtt(2));
-            Console.WriteLine(PlusEtt(1));
+            SkrivUt(PlusEtt(3));
+            SkrivUt(PlusEtt(2));
+            SkrivUt(PlusEtt(1));
         }
 
 
